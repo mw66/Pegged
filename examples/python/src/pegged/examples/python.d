@@ -696,11 +696,6 @@ Comment <-
            LineComment
 LineComment <~ :'#' (!endOfLine .)* :endOfLine
 
-# doublequote < '"'
-# backslash   < '\'
-# quote < "'"
-# endOfLine < "\\n"
-
 `;
 
 
